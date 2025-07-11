@@ -1,30 +1,65 @@
-# Guestbook for w3schools.com Git tutorial
+# 💌 Template website undangan pernikahan sederhana
 
-This is the public GitHub project that you can contribute to.
-If you are just getting started, I suggest you start at the tutorial here: https://www.w3schools.com/git
+![Thumbnail](/assets/images/banner.webp)
 
-# Leave a message for us!
-This repository is meant to be a place where our users can leave messages for others to see.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cef32dbf-f26f-4865-84a9-b85a439c9994/deploy-status)](https://app.netlify.com/sites/ulems/deploys)
+[![Hits](https://dikit.my.id/0b3y8q)](https://cie.my.id)
+[![GitHub repo size](https://img.shields.io/github/repo-size/dewanakl/undangan?color=brightgreen)](https://shields.io)
+[![GitHub License](https://img.shields.io/github/license/dewanakl/undangan?color=brightgreen)](https://shields.io)
 
-You can see the result here: https://w3schools-test.github.io/
+## 🚀 Demo
+Untuk kamu yang ingin melihat demo terlebih dahulu:
 
-We generally only have one condition: 
-We will not allow messages that are negative, or hurtful. Try to be welcome and positive!
+[https://ulems.my.id/?to=Teman teman semua](https://ulems.my.id/?to=Teman%20teman%20semua)
 
-# What should my message look like?
+## 📦 Documentation
 
-You can add almost anything to the index.html file between the indicated comments:
+- Jalankan: `npm install` serta `npm run dev`.
+- Ubah isi dari index.html sesuai yang kamu mau.
+- Jika tidak ingin menggunakan `komentar` bisa hapus `data-url` dan `data-key` pada body index.
+- Sesuaikan `data-url` pada body index dan dashboard sesuai url backend (jika deploy sendiri).
+- Sesuaikan juga `data-key` dengan access key pada dashboard.
+- Jika mau menggunakan gif, dapatkan tenor key di [developers.google.com/tenor](https://developers.google.com/tenor/guides/quickstart)
+- Waktu deploy: `npm run build:public` dan folder public yang akan di deploy.
+- Self deployment backend bisa lihat dibawah atau ingin coba gratis pada trial api.
 
-`<!-- Insert your message below here -->`
+> Undangan ini hanya HTML, CSS, dan JavaScript seperti biasa. NPM digunakan untuk build file js agar dieksekusi secara langsung (bukan tipe module lagi).
 
-and
+> Jika kamu punya pertanyaan, silakan gunakan fitur `discussions` agar teman-teman yang lain juga mengetahuinya.
 
-`<!-- End user messages -->`
+## 🔥 Deployment API
 
-So feel free to use your imagination!
+- Video\
+    otw
 
-If you are not feeling very creative, you can add a quote, or small text like the examples on this page: https://www.w3schools.com/w3css/w3css_quotes.asp
-And add your name to it :)
+- Presentation
+    [https://docs.google.com/presentation](https://docs.google.com/presentation/d/1EY2YmWdZUI7ASoo0f2wvU7ec_Yt0uZanYa8YLbfNysk/edit)
 
-We reserve the right to remove, or not to add anything that we feel will not fit here.
-Also, this page is a community page, and the content you add may be changed later.
+## ⏰ Trial API
+Untuk kamu yang ingin mencoba secara gratis:
+
+[https://trial.ulems.my.id](https://trial.ulems.my.id)
+
+## ⚙️ Tech stack
+
+- Bootstrap 5.3.7
+- AOS 2.3.4
+- Fontawesome 6.7.2
+- Canvas Confetti 1.9.3
+- Google Fonts
+- Vanilla JS
+
+## 🎨 Credit
+All visual assets in this project are sourced from Pixabay.
+
+## 🤝 Contributing
+
+I'm very open to those of you who want to contribute to the undangan!
+
+## 🐞 Security Vulnerabilities
+
+If you find any security vulnerabilities in this undangan, please email DKL via [dewanakretarta29@gmail.com](mailto:dewanakretarta29@gmail.com).
+
+## 📜 License
+
+Undangan is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
